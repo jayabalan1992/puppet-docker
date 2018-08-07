@@ -1,0 +1,8 @@
+---
+version: '3'
+services:
+  puppet:
+    build:
+      context: .
+    volumes:
+      - ./pkg:/src/pkg
